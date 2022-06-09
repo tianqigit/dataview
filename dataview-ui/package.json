@@ -13,6 +13,7 @@
     "core-js": "^3.8.3",
     "element-plus": "^2.2.5",
     "js-cookie": "^3.0.1",
+    "md5": "^2.3.0",
     "mockjs": "^1.1.0",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",

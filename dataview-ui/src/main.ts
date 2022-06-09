@@ -21,6 +21,10 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import locale from 'element-plus/lib/locale/lang/zh-cn'
 import Cookies from 'js-cookie'
+
+import md5 from 'md5'
+// const md5=require('md5')
+console.log(md5("111111"))
 // 注册ElementPlus
 app.use(ElementPlus, {
   locale, // 语⾔设置

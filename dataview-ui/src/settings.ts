@@ -19,3 +19,5 @@ module.exports = {
   tokenCookieExpires: 1
   
 }
+
+// declare module 'path' 

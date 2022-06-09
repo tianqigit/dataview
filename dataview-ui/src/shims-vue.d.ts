@@ -6,6 +6,8 @@ declare module '*.vue' {
 }
 declare module 'mockjs'
 declare module 'js-cookie'
+declare module 'md5'
+
 
 // declare module 'element-plus'
 
