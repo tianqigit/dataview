@@ -22,6 +22,7 @@ module.exports = {
     "no-irregular-whitespace":"off",
     "@typescript-eslint/no-explicit-any": ["off"] ,// 新增这句话，关闭any报错
     "@typescript-eslint/no-unused-vars": ["off"] ,// 新增这句话，关闭不使用参数报错
+    '@typescript-eslint/no-var-requires': ["off"],
     "no-debugger": "off"
   }
 }

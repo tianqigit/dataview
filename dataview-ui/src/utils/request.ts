@@ -1,13 +1,14 @@
 import axios from 'axios'
-// import Config from 'settings'
-// const Config = require("@settings");
+import Cookies from 'js-cookie'
+
+const Config = require("../settings");
 // 创建axios实例
 const service = axios.create({
 	// baseURL: process.env.NODE_ENV === 'production' ? process.env.VUE_APP_BASE_API : '/', // api 的 base_url
 	// baseURL: (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'show'|| process.env.NODE_ENV === 'dev' || process.env.NODE_ENV === 'prod') ? process.env.VUE_APP_BASE_API : '/', // api 的 base_url
 	baseURL: 'http://localhost:8888/', // api 的 base_url
-	// timeout: Config.timeout // 请求超时时间
-	timeout: 30000 // 请求超时时间
+	timeout: Config.timeout // 请求超时时间
+	// timeout: 30000 // 请求超时时间
 })
 
 // request拦截器

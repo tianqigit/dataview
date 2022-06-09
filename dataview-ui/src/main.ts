@@ -20,11 +20,12 @@ const app:any = createApp(App)
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import locale from 'element-plus/lib/locale/lang/zh-cn'
+import Cookies from 'js-cookie'
 // 注册ElementPlus
 app.use(ElementPlus, {
   locale, // 语⾔设置
-  size: 'medium' // 尺⼨设置
-//   size: Cookies.get('size') || 'medium' // 尺⼨设置
+//   size: 'medium' // 尺⼨设置
+  size: Cookies.get('size') || 'medium' // 尺⼨设置
 })
 
 

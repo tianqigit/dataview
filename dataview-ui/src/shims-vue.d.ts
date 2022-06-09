@@ -5,6 +5,8 @@ declare module '*.vue' {
   export default component
 }
 declare module 'mockjs'
+declare module 'js-cookie'
+
 // declare module 'element-plus'
 
 // declare module './settings'
