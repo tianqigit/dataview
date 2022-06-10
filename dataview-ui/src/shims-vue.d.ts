@@ -4,9 +4,9 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
-declare module 'mockjs'
-declare module 'js-cookie'
-declare module 'md5'
+// declare module 'mockjs'
+// declare module 'js-cookie'
+// declare module 'md5'
 
 
 // declare module 'element-plus'
