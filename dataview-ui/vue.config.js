@@ -1,11 +1,11 @@
 const { defineConfig } = require('@vue/cli-service')
 
 // const path = require('path')
-// const defaultSettings = require('./src/settings')
+const defaultSettings = require('./src/settings')
 const { resolve } = require('path')
 const path = require('path')
 // const Config = require("./src/settings");
-
+console.log(" 标题；"+defaultSettings.title)
 module.exports = defineConfig({
 
 
